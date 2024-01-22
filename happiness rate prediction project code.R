@@ -6,6 +6,7 @@ library(lmtest)
 library(MASS)
 library(tseries)
 library(htmlTable)
+
 my_data <- read_excel("life_ladder.xlsx")
 summary(my_data)
 boxplot(my_data$Y)
